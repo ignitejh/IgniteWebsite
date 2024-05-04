@@ -1,4 +1,3 @@
-import { colors } from '@/utils/colors'
 import { navbar } from '@/utils/constant'
 import Link from 'next/link'
 import React from 'react'
