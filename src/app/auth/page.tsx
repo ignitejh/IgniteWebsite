@@ -10,7 +10,7 @@ const page = () => {
 
             {/* auth container */}
             <div
-                className={`min-w-[60%] xl:max-w-[60%] mx-[autoS] flex gap-2  my-10 min-h-[20vh] border-2 rounded`}
+                className={`min-w-[60%] xl:max-w-[60%] mx-[auto] flex gap-2  my-10 min-h-[20vh] border-2 rounded`}
                 style={{
                     borderColor: colors.navbarBg
                 }}
