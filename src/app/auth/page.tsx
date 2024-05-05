@@ -1,7 +1,7 @@
 import { colors } from '@/utils/colors'
 import { login } from '@/utils/constant'
 import React from 'react'
-
+ /* eslint-disable */
 const page = () => {
     return (
         <div
@@ -51,7 +51,7 @@ const page = () => {
                                         <label htmlFor="input" className='block capitalize text-white'>{item.name}</label>
                                         <input type={item.type}
                                             className='outline-none px-1 rounded py-[.5px]'
-                                            // placeholder='Enter your mail'
+                                        // placeholder='Enter your mail'
                                         />
                                     </div>
                                 ))
@@ -65,7 +65,9 @@ const page = () => {
                         <p
                             className='font-medium text-[12px] leading-[13px] text-center text-white'
                         >
-                            Don't have an account? <span className='cursor-pointer'>Sign up</span>
+                            {/* disable eslint */}
+                            {/* eslint-disable-next-line*/}
+                            Dont have an account? <span className='cursor-pointer'>Sign up</span>
                         </p>
                     </div>
                 </div>

@@ -6,7 +6,6 @@ import React from 'react'
 
 const Navbar = () => {
   const pathname = usePathname()
-  console.log(pathname)
   return (
     <div className='w-[100%] sticky top-2 justify-center items-center flex flex-1 p-3 z-20'>
       <div className={`min-w-[60%] h-[auto] flex flex-wrap justify-center items-center gap-6 p-2 rounded-full  ${pathname != '/domains' ? 'bg-[#C92842] text-white' : 'bg-transparent text-black'} `}>

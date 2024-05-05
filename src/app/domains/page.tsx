@@ -4,7 +4,6 @@ import domains from '../../assets/domains.svg'
 import bg from '../../assets/domain page bg.svg'
 import ignite from '../../assets/ignite logo.svg'
 import jamia from '../../assets/jamia hamdard.svg'
-import domainCard from '../../assets/domain card.svg'
 const page = () => {
     return (
         <div
@@ -36,9 +35,9 @@ const page = () => {
             <Image
                 src={domains}
                 alt='domains'
-                className='self-center '
+                className='self-end '
                 style={{
-                    backgroundSize: '100%'
+                    // backgroundSize: '100%'
                 }}
             />
 
