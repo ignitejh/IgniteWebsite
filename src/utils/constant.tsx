@@ -25,8 +25,8 @@ export const navbar = [
         label: 'events'
     },
     {
-        name: 'teams',
-        link: '',
+        name: 'team',
+        link: '/team',
         label: 'teams'
     },
     {
@@ -175,4 +175,49 @@ export const aboutus = [
     },{
         name:'Important links for students'
     }
+]
+
+
+
+export const teams = [
+    {
+        name: 'Khaliq',
+        link: '/',
+        about: 'Tech Team'
+    },
+    {
+        name: 'Alfishah',
+        link: '/',
+        about: 'Tech Team'
+    },
+    {
+        name: 'Samar',
+        link: '/',
+        about: 'Tech Team'
+    },
+    {
+        name: 'Kh',
+        link: '/',
+        about: 'Tech Team'
+    },
+    {
+        name: 'K',
+        link: '/',
+        about: 'Tech Team'
+    },
+    {
+        name: 'zu',
+        link: '/',
+        about: 'Tech Team'
+    },
+    {
+        name: 'koh',
+        link: '/',
+        about: 'Tech Team'
+    },
+    {
+        name: 'aqh',
+        link: '/',
+        about: 'Tech Team'
+    },
 ]

@@ -8,7 +8,8 @@ import { SlSocialInstagram } from "react-icons/sl";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaTwitch } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa6";
-import contact from "../../assets/contact.jpg";
+import bg from "../../assets/illustr.png";
+import mascott from "../../assets/mascott.png";
 import Image from "next/image";
 
 import "./contact.css";
@@ -38,61 +39,11 @@ export default function Contact() {
   }
 
   return (
-    <>
+    <div className="img-container">
       <div className="contact">
         <div className="container">
-            <h1 className="contact-heading">Contact Us</h1>
-          <div>
-            <div>
-              <ul className="contact-ul1">
-                <li className="li">
-                  <FaLocationDot className="contact-icon" size={25} />
-                  Jamia Hamdard Delhi
-                </li>
-                <li className="li">
-                  <IoIosMail className="contact-icon" size={25} /> Email Us:
-                  ignitesociety.jh@gmail.com
-                </li>
-                <li className="li">
-                  <FaPhoneAlt className="contact-icon" size={25} />
-                  Contact Us: 9999999
-                </li>
-              </ul>
-              <h1 className="contact-heading">Follow on </h1>
-              <ul className="contact-ul">
-                <li>
-                  <a href="#">
-                    <FaLinkedin className="contact-social" size={40} />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <SlSocialInstagram className="contact-social" size={40} />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <AiFillRedditSquare className="contact-social" size={40} />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <FaSquareXTwitter className="contact-social" size={40} />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <FaTwitch className="contact-social" size={40} />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <FaYoutube className="contact-social" size={40} />
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
+          <Image src={bg} alt="contact" className="contact-img" />
+          
         </div>
         <form onSubmit={handleSubmit} className="contact-form">
           <input
@@ -118,6 +69,63 @@ export default function Contact() {
           </button>
         </form>
       </div>
-    </>
+      <div className="contact">
+        <div className="container2">
+          <div>
+            <h1 className="contact-heading">Contact Us</h1>
+            <ul className="contact-ul1">
+              <li className="li">
+                <FaLocationDot className="contact-icon" size={25} />
+                Jamia Hamdard Delhi
+              </li>
+              <li className="li">
+                <IoIosMail className="contact-icon" size={25} /> Email Us:
+                ignitesociety.jh@gmail.com
+              </li>
+              <li className="li">
+                <FaPhoneAlt className="contact-icon" size={25} />
+                Contact Us: 9999999
+              </li>
+            </ul>
+            <h1 className="contact-heading">Follow on </h1>
+            <ul className="contact-ul">
+              <li>
+                <a href="#">
+                  <FaLinkedin className="contact-social" size={40} />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <SlSocialInstagram className="contact-social" size={40} />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <AiFillRedditSquare className="contact-social" size={40} />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <FaSquareXTwitter className="contact-social" size={40} />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <FaTwitch className="contact-social" size={40} />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <FaYoutube className="contact-social" size={40} />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <Image src={mascott} alt="contact" className="contact-img2" />
+        </div>
+      </div>
+    </div>
   );
 }
