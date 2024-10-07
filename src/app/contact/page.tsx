@@ -63,7 +63,6 @@ export default function Contact() {
             placeholder="Enter your message"
             className="contact-input"
           ></textarea>
-          {/* <button type="submit" classNameName="custom-btn btn-12"><span>Submit!</span><span>Send</span></button> */}
           <button type="submit" className="custom-btn btn-5">
             Submit
           </button>
