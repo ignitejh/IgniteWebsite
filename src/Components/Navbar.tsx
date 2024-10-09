@@ -29,11 +29,11 @@ const Navbar = () => {
       >
         <div
           className={`menu min-w-[60%] h-[auto] flex flex-wrap justify-center items-center gap-6 p-2 rounded-full  
-          //   dollor-sign {
-          //   pathname != "/domains"
-          //     ? "bg-[#C92842] text-white"
-          //     : "bg-transparent text-black"
-          // }
+            ${
+            pathname != "/domains"
+              ? "bg-[#C92842] text-white"
+              : "bg-transparent text-black"
+          }
            `}
         >
           {navbar.map((item, index) => (

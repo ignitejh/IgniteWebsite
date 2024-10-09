@@ -2,13 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'CustomFont';
+  src: url('../assets/fonts/Poppins-ExtraBold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'CustomFont', sans-serif;
+}
+
 .eventsContainer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   grid-gap: 20px;
-  background-color: purple;
+  background-color: #ef4136e6;
   padding: 20px;
+  width: 100%;
 }
 
 .header {
@@ -40,3 +52,5 @@
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
 }
+
+

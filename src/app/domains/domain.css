@@ -1,0 +1,87 @@
+.domain-1,
+.domain-2,
+.domain-3,
+.domain-4,
+.domain-5 {
+  display: flex;
+  flex-direction: row;
+  padding-inline: 40px;
+  height: 80vh;
+  margin-bottom: 60px;
+}
+.domain-1 {
+  background-image: url("../../assets/domain1.png");
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.3s ease;
+  transform: scale(1);
+  z-index: 1000;
+  margin-top: 30px;
+}
+.domain-2 {
+  background-image: url("../../assets/domain2.png");
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.3s ease;
+  transform: scale(1);
+  z-index: 1000;
+  margin-top: 30px;
+}
+.domain-3 {
+  background-image: url("../../assets/domain3.png");
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.3s ease;
+  transform: scale(1);
+  z-index: 1000;
+  margin-top: 30px;
+}
+.domain-4 {
+  background-image: url("../../assets/domain4.png");
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.3s ease;
+  transform: scale(1);
+  z-index: 1000;
+  margin-top: 30px;
+}
+.domain-5 {
+  background-image: url("../../assets/domain5.png");
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.3s ease;
+  transform: scale(1);
+  z-index: 1000;
+  margin-top: 30px;
+}
+
+.head {
+  padding: 20px;
+  text-align: left;
+  font-size: 30px;
+  color: #283b92;
+  text-transform: uppercase;
+}
+
+.section-net {
+  width: 50%;
+}
+
+.section-details {
+  width: 50%;
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+  background: rgba(209, 29, 29, 0.11);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.2px);
+  -webkit-backdrop-filter: blur(1.2px);
+  border: 1px solid rgba(209, 29, 29, 0.3);
+  height: 400px;
+}

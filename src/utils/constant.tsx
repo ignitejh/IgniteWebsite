@@ -16,7 +16,7 @@ export const navbar = [
     },
     {
         name: 'mentors',
-        link: '',
+        link: '/mentor',
         label: 'mentors'
     },
     {
@@ -178,46 +178,3 @@ export const aboutus = [
 ]
 
 
-
-export const teams = [
-    {
-        name: 'Khaliq',
-        link: '/',
-        about: 'Tech Team'
-    },
-    {
-        name: 'Alfishah',
-        link: '/',
-        about: 'Tech Team'
-    },
-    {
-        name: 'Samar',
-        link: '/',
-        about: 'Tech Team'
-    },
-    {
-        name: 'Kh',
-        link: '/',
-        about: 'Tech Team'
-    },
-    {
-        name: 'K',
-        link: '/',
-        about: 'Tech Team'
-    },
-    {
-        name: 'zu',
-        link: '/',
-        about: 'Tech Team'
-    },
-    {
-        name: 'koh',
-        link: '/',
-        about: 'Tech Team'
-    },
-    {
-        name: 'aqh',
-        link: '/',
-        about: 'Tech Team'
-    },
-]
