@@ -4,8 +4,8 @@ import React from "react";
 import khaliq from "../../assets/khalique1.jpg";
 import { FaLinkedin } from "react-icons/fa6";
 import { SlSocialInstagram } from "react-icons/sl";
-
 import "../team.css";
+
 function Tech() {
   return (
     <div className="team-main">
@@ -97,6 +97,7 @@ function Tech() {
                     stroke="currentColor"
                     className="w-6 h-6"
                   >
+                <p>Web Designer</p>
                     <path
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -130,6 +131,7 @@ function Tech() {
                     stroke="currentColor"
                     className="w-6 h-6"
                   >
+                <p>SEO Expert</p>
                     <path
                       stroke-linecap="round"
                       stroke-linejoin="round"

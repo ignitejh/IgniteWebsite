@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { navbar } from "@/utils/constant";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -20,22 +20,17 @@ function MenuFunction() {
 }
 
 const Navbar = () => {
-  const pathname = usePathname();
+  const pathname = usePathname()
+
   return (
     <>
       <div
-        className="nav-menu w-[100%] sticky top-2 justify-center items-center flex flex-1 p-3 z-20 max-md:top-0 max-md:p-1"
+      // max-md:top-0 max-md:p-1
+        className="nav-menu"
         id="myNavMenu"
       >
         <div
-          className={`menu min-w-[60%] h-[auto] flex flex-wrap justify-center items-center gap-6 p-2 rounded-full  
-            ${
-            pathname != "/domains"
-              ? "bg-[#C92842] text-white"
-              : "bg-transparent text-black"
-          }
-           `}
-        >
+          className="menu">
           {navbar.map((item, index) => (
             <Link
               onClick={() => MenuFunction()}

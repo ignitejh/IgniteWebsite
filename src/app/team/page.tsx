@@ -6,7 +6,7 @@ import pr from "../../assets/pr.jpg";
 import td from "../../assets/td.jpg";
 import graphic from "../../assets/graphic.jpg";
 import content from "../../assets/content.jpg";
-
+import dynamic from "next/dynamic";
 import Link from "next/link";
 import "./style.css";
 
@@ -223,15 +223,10 @@ function Team() {
               </div>
             </div>
           </li>
-
-
-
-
-
         </ul>
       </div>
     </div>
   );
 }
 
-export default Team;
+export default dynamic (() => Promise.resolve(Team), {ssr: false})

@@ -20,8 +20,8 @@ export const navbar = [
         label: 'mentors'
     },
     {
-        name: 'events',
-        link: '',
+        name: 'event',
+        link: '/event',
         label: 'events'
     },
     {
@@ -30,7 +30,7 @@ export const navbar = [
         label: 'teams'
     },
     {
-        name: 'contactus',
+        name: 'contact',
         link: '/contact',
         label: 'contact us'
     },
@@ -114,7 +114,7 @@ export const domains = [
 export const aboutus = [
     {
         name: 'Introduction'
-        , detail: 'Ignite Society is a dynamic community-driven organization committed to fostering collaboration, innovation, and positive change. By bringing together individuals from diverse backgrounds and disciplines, Ignite Society harnesses the collective power of creativity and expertise to address pressing challenges and drive meaningful impact. '
+        , detail: 'Ignite Society at Jamia Hamdard is a vibrant cultural Society that serves as a platform for students to express their creativity, talents, and passion for the arts. Focused on fostering unity and collaboration, the society brings together individuals from diverse academic backgrounds to celebrate culture, tradition, and innovation.Through a wide array of events, including music and dance performances, art exhibitions, literary competitions, and theater productions, Ignite Society creates a dynamic environment that encourages students to explore and showcase their artistic abilities. The society also organizes workshops, cultural festivals, and social initiatives that not only enrich the campus atmosphere but also inspire students to engage with the larger community. At its core, Ignite Society is dedicated to promoting cultural awareness, enhancing leadership skills, and providing opportunities for personal and creative growth. It is a hub for building friendships, nurturing talent, and igniting the spark of creativity within every student at Jamia Hamdard. '
     }, {
         name: 'What is Ignite Society?'
         , detail: `Society empowers its members to turn ideas into action and make a difference in the world.  A student-led initiative at Jamia Hamdard, dedicated to cultivating collaboration, innovation, and entrepreneurship among aspiring changemakers. We offer a dynamic platform for students to connect, develop skills, and turn ideas into impactful projects. With a focus on project development, research, learning exposure, startup culture, and networking, we empower students to unleash their potential and drive positive change in their communities.

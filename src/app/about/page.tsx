@@ -4,9 +4,9 @@ import React, { useState } from 'react'
 import startup from '../../assets/startup.svg'
 import onlineLearning from '../../assets/Online learning.svg'
 import { aboutus } from '@/utils/constant'
-import Footer from '@/Components/Footer'
 const page = () => {
   return (
+  
     <div
       className='flex flex-1 gap-10 flex-col mt-8'
     >
@@ -49,7 +49,7 @@ const page = () => {
                 {
                   isOpen && <>
                     <div
-                      className={`p-2 ${isOpen ? 'w-[auto] block' : 'w-0 hidden'}`}
+                      className={`p-3 tracking-wider font-medium text-[15px] ${isOpen ? 'w-[auto] block' : 'w-0 hidden'}`}
                     >{item.detail}</div>
 
                     {
@@ -112,7 +112,7 @@ const page = () => {
       </div>
 
       {/* footer */}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }

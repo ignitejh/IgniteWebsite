@@ -4,6 +4,8 @@ import React from "react";
 import khaliq from "../../assets/khalique1.jpg";
 import { FaLinkedin } from "react-icons/fa6";
 import { SlSocialInstagram } from "react-icons/sl";
+import dynamic from "next/dynamic";
+
 
 import "../team.css";
 function Mentor() {
@@ -141,4 +143,5 @@ function Mentor() {
   );
 }
 
-export default Mentor;
+export default dynamic (() => Promise.resolve(Mentor), {ssr: false})
+

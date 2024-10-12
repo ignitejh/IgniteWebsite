@@ -21,7 +21,7 @@ const page = () => {
       />
 
       {/*  */}
-      <Image
+      {/* <Image
         src={ignite}
         alt="ignite"
         className="absolute -top-16 left-4 w-[70px]"
@@ -30,7 +30,7 @@ const page = () => {
         src={jamia}
         alt="ignite"
         className="absolute -top-16 right-4 w-[60px]"
-      />
+      /> */}
       <Image
         src={domains}
         alt="domains"

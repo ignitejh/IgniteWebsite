@@ -6,13 +6,11 @@ import temp from "../assets/temp.svg";
 import vision from "../assets/vision.svg";
 import projectDevelopment from "../assets/project development.svg";
 import research from "../assets/Research paper.svg";
-import Footer from "@/Components/Footer";
+import Footer from "@/components/Footer";
 import people from "../assets/people.jpeg";
 import "./team.css";
 
-
 export default function Home() {
-
   const containerStyle =
     "flex px-10 flex-1 gap-2 flex-wrap-reverse justify-center max-md:flex-col max-md:my-10 ";
   return (
@@ -77,27 +75,26 @@ export default function Home() {
 
       {/* see what other say */}
       <div
-        className=" flex flex-1 w-[100%] relative py-[auto] gap-4 h-[auto] justify-center items-center flex-col min-h-[600px] "
+        className=" flex flex-1 w-[100%] relative py-[auto] gap-4 h-[auto] justify-center min-h-[600px] "
         style={{
           backgroundImage: `url('${vector1.src}')`,
           backgroundSize: "100%",
           backgroundRepeat: "no-repeat",
         }}
       >
-        <h2 className="font-medium text-center text-[48px] z-[1] leading-[48px] text-[rgb(230,96,96)] max-md:text-[30px] ">
-           <span className="text-[#fcfafb]"> IGNITE</span> SOCIETY JAMIA HAMDARD 
+        <h2 className="font-medium text-center text-[48px] z-[1] text-[rgb(230,96,96)] max-md:text-[30px] ">
+          <span className="text-[#fcfafb]"> IGNITE</span> SOCIETY JAMIA HAMDARD
         </h2>
         {/*  */}
-    
 
-        <div className="support">
+        {/* <div className="support">
           <a href="https://twitter.com/DevLoop01" target="_blank">
             <i className="fab fa-twitter-square"></i>
           </a>
           <a href="https://codepen.io/dev_loop/" target="_blank">
             <i className="fab fa-codepen"></i>
           </a>
-        </div>
+        </div> */}
       </div>
 
       {/* vision container */}
